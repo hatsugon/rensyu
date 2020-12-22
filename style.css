@@ -1,0 +1,94 @@
+*,*:before,*:after{
+  box-sizing:border-box
+}
+html{
+  font-size: 62.5%;
+}
+body{
+  font-family: "Helvetica Neue",
+  Arial,
+  "Hiragino Kaku Gothic ProN",
+  "Hiragino Sans",
+  Meiryo,
+  sans-serif;
+}
+a{
+  display: block;
+  text-decoration: none;
+}
+li{
+  list-style: none;
+  font-size: 1.6rem;
+}
+img{
+  width: 100%;
+  height: auto;
+}
+h1{
+  font-size: 3.2rem;
+}
+h2{
+  font-size: 2.4rem;
+}
+section{
+  margin-top: 4.0rem;
+}
+.wrapper{
+  max-width: 1000px;
+  margin: auto;
+}
+
+.header-inner{
+  display: flex;
+  padding: 0 4%;
+}
+.gnav{
+  margin-left: auto;
+}
+
+.gnav-list{
+  display: flex;
+}
+.gnav-list>*+*{
+  margin-left: 2rem;
+}
+.gnav-list-item{
+  background: chartreuse;
+  padding: 10px;
+}
+
+
+.card-container{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+  gap: 10px;
+}
+.card-item{
+  background: pink;
+  padding: 30px;
+  text-align: center;
+}
+.new{
+  width: 100%;
+  
+}
+.new-list{
+  outline: solid;
+  padding: 0 4%;
+}
+.new-list-item{
+  display: flex;
+  padding: 15px;
+  border-bottom: 1px solid #000;
+}
+.label{
+  background: blue;
+  border-radius: 3px;
+  color: #fff;
+  margin: 0 20px;
+}
+
+
+
+
+
