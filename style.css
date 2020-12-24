@@ -64,7 +64,7 @@ section{
   gap: 10px;
 }
 .card-item{
-  background: pink;
+  background: red;
   padding: 30px;
   text-align: center;
 }
